@@ -1,15 +1,18 @@
 ---------------------------------------------------------------------
-License 
+License
 ---------------------------------------------------------------------
- Copyright (c) 2016-2017 University of Southern California and University of California at Berkeley. All rights reserved.
+Copyright (c) 2016-2018 University of Southern California. All rights reserved.
 
- Contributors: Jiwei Li and Pierluigi Nuzzo
+ Contributors:
+ Jiwei Li
+ Pierluigi Nuzzo
+ Chanwook Oh
 
  Redistribution and use of this software or part of it, with or without
  modification, are permitted provided that the following conditions are
  met:
 
- * Redistributions of this software or part of it must retain the above 
+ * Redistributions of this software or part of it must retain the above
  copyright notice, this list of conditions and the following disclaimer.
  * Neither the names of the Universities nor the names of its
  contributors may be used to endorse or promote products derived
