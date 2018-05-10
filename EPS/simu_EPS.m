@@ -1,7 +1,7 @@
 % Simulate the EPS under the control of stochastic MPC derived from a given
 % contract.
 %
-% Written by Jiwei Li
+% Jiwei Li and Pierluigi Nuzzo
 
 close all;
 clear all;

@@ -1,5 +1,3 @@
-% Written by Jiwei Li
-
 % Currently SCAnS can handle three types of systems:
 %       1. Linear systems with control-dependent and additive Gaussian noise (referred to as GaussLin)
 %       2. Markovian jump linear systems (referred to as MarkovJump)
@@ -11,6 +9,8 @@
 %       MODEL_and_AP\MarkovJump
 % For a new system type and/or for new chance constraints (APs), users need  
 % to write their own translation files that turn APs into MIP constraints.
+%
+% Jiwei Li and Pierluigi Nuzzo
 
 close all;
 clear all;

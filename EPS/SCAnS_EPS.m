@@ -1,4 +1,6 @@
-% Written by Jiwei Li
+% Main file for the Aircraft Electrical Power System case study in the
+% paper
+% Jiwei Li and Pierluigi Nuzzo
 
 close all;
 clear all;
@@ -25,7 +27,7 @@ run AP_EPS;
 
 StSTL_config();
 
-% Step 4: make contracts
+% Step 4: define contracts
 
 global control_contract;
 assumption = 'And(AP(14,0),AP(15,0),AP(16,0))';
