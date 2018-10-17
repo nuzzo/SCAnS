@@ -1,0 +1,182 @@
+\newpage
+\section{Move Elsewhere}
+
+
+\textcolor{orange}{There are many industry standards providing requirements or guidelines in safety assessments. Examples such as ARP 4754 (aerospace practice for development and certification of aircraft systems) \cite{ARP4754}, ARP 4761 (guidelines for conducting safety assessment process) \cite{ARP4761}, RTCA DO 178B/C (software considerations for commercial and military airborne systems), and RTCA DO 254 (development of airborne electronic hardware) are some examples from aerospace applications.  Similar IEC, ISO, or MIL-STD combinations exist for road vehicles, medical devices, electronics, or military systems.}
+
+\textcolor{orange}{In addition to inadequate control action or feedback, accidents also occur because of inadequate enforcement of safety constraints.  Safety constraints manifest from control algorithms, process models, and interaction among automated controllers or between controllers and human decision makers.  
+}
+
+\textcolor{orange}{Our main innovation is the integration of a systems-theoretic approach to safety with its dynamic assurance.  The systems-theoretic approach identifies safety constraints at various levels of abstraction.  We build safety into the product by working at a systems-level viewpoint, using lexicon and design patterns familiar to both hardware and software engineers; safety is an emergent property of the system, not an afterthought.  The system constraints revealed from that design become the key elements of our dynamic assurance case.  Our verification tools ensure the constraints are relevant, identifiable, and their implementation and effect observable.  As system behavior evolves during runtime owing to learning, threats, degradation, or some other factor, the dynamic assurance case identifies whether the safety constraints continue to be satisfied.  If not, it provides notifications or issues recovery instructions directly from a lookup table.}
+
+% IEC 61508 (certification of electronic systems)... IEC 61513 (certification of electronic systems nuclear power industry)  IEC 60601 (standards for safety of medical electrical equipment)... IEC 62304 (life-cycle requirements for medical device software)... ... MIL-STD-882 (system safety in US military)... UK Defense Standards 00-55/56 (safety management requirements for defense systems)...
+
+\textcolor{orange}{We use a systems-theoretic approach to security and safety in the autonomous system design.  Consequently we have hazard analysis assumptions and constraints to carry in the DAC, and we need state condition monitors to update the evidence. The design and implementation can use any number of hazard analysis techniques, so long as the assumptions and mitigation strategies associated with the analysis are represented in the DAC.  
+}
+
+\textcolor{orange}{
+The conventional approach to dealing with complexity employs some sort of analytic reduction. Analytic reduction performs divide-and-conquer to facilitate analysis at the component or subsystem level, then recombines results during integration and system verification.  This recombination assumes that each component or subsystem operates independently; components behave the same when recomposed; components are not subject to feedback loops and non-linear interactions; and interactions can be examined pairwise.  Especially with the non-linear behaviors and interactions possible with learning, these assumptions are largely invalid in today's tightly coupled, software-intensive, highly-automated, and highly connected systems. 
+}
+
+\textcolor{orange}{
+Safety is an emergent property of systems that arises from the interaction of system components (\cite{NL04}).  Treating safety as an emergent property that arises when the system components interact within a given environment leads to accident models that view accidents as a control problem: accidents occur when component failures, external disturbances, and/or dysfunctional interactions among system components are not adequately handled by the control system. Emergent properties are controlled or enforced by a set of constraints (control laws) related to the behavior of the system components. Accidents result from interactions among components that violate the safety constraints, that is, from a lack of appropriate control actions to enforce the constraints on the interactions.  
+}
+
+\textcolor{orange}{
+In systems theory, complex systems are modeled as a hierarchy of levels of organization, each more complex than the one below, where a level is characterized by having emergent or irreducible properties. Hierarchy theory deals with the fundamental differences between one level of complexity and another. Its ultimate aim is to explain the relationships between different levels: what generates the levels, what separates them, and what links them. Emergent properties associated with a set of components at one level in a hierarchy are related to constraints upon the degree of freedom of those components.  Hazards result from lack of enforcement of safety constraints in system design and operations.
+}
+
+\textcolor{orange}{
+Our dynamic assurance model employs a systems-theoretic approach \cite{NL04}.  In contrast with analytic reduction and event-based approaches, our approach places more emphasis on the requirements and design processes, incorporation of safety concerns and hazard analysis in the system development approach, and on all aspects of system control.  In systems theory, control is always associated with the imposition of constraints.  We capture and reason about design assumptions and system constraints through the DAC. 
+}
+
+\textcolor{blue}{
+Extant industry safety standards tend toward the specification of either processes or testing regimes. While we will do verification and testing, we do not rely on only this to achieve safety. The survey respondents revealed a high level of dependency on strict processes, plans, and test artifacts to document and argue for certification of safety-critical systems.  With heavy reliance on process documentation and product testing as evidence, the respondents likewise revealed their significant effort invested in maintaining traceability of evidence dependencies upon update. The dependency on collecting design artifacts to shore up the confidence in the safety claim, apart from revealing their reliance on process for safety, also shows they are trying to justify safety afterward, bolting-on a safety justification after some separate design process completed.
+}
+
+\textcolor{blue}{
+The ARP4761 standard\cite{ARP4761} provides an illustrative example for system safety assessment activities. A number of analysis techniques therein, such as fault tree analysis (FTA) or failure modes and effects analysis (FMEA), make assumptions, perform analyses, draw conclusions, and thus influence hazard mitigation strategies and justifications for system safety.  However, techniques like FTA and FMEA presume an {\em event-based\/} or {\em causal\/} model of safety which carries a number of issues.  For example, they say nothing about unhandled controlled-system states and environmental conditions.  There may be incomplete or wrong assumptions about operation of the controlled system or the required actions of the operator.  These techniques have been applied to software but generally are an inappropriate model software, which has unlimited complexity and complicates planning for and guarding against all undesired system behaviors.  Causal analysis is not effective for indirect or non-linear interactions and complexity such as those introduced in an LE-CPS.  Moreover, it does not help with failures of interaction, or systemic factors, which do not require failed components.  Causal analysis will not help with the failure or requirements or system design errors; many accidents occur with systems that met their requirements, but failed to provide a complete specification to explore hazardous states.  
+}
+
+\textcolor{blue}{
+A premise of these procedural approaches is that the resulting safety is {\em implicit}; that is, following these techniques implies making the system safer.  The assurance case regime in contrast takes the {\em explicit\/} stance; that is, developers follow whatever procedures they like then present an argument describe why one should trust their result.  However, certain applications like LE-CPS introduce challenges even for the explicit assurance case stance. For example, life-cycles for safety-related applications of ANNs are immature (\cite{SafetyANN}).  One life-cycle (\cite{Rodvoid}) is directly intended for safety-critical applications however there are several problems associated with its approach. One problem is that it relies on determining the specification and behavior at the initial phase of development, where there is limited data available.  Another problem is that it over-emphasizes control over non-functional properties such as spatial or temporal resources. Instead, focus should be upon constraining functional properties such as learning or the behavior of the ANN.  Alternatives using hybrid life-cycles, where different kinds of learning are permitted at different points in the life-cycle, attempt to remedy these shortcomings. 
+}
+
+\textcolor{blue}{The authors \cite{SafetyANN} advocate a three-stage hybrid ANN model to be employed for examining the features and processes involved in creating and updating the model.  The advantage of this hybrid model is that it exposes rule extraction and symbolic knowledge, thereby enabling white-box analysis for safety properties.  Preliminary hazard identification and functional hazard analysis (FHA) are done at the symbolic level up to rule insertion, then FHA is performed separately for the dynamic learning phase.  One then analyzes the resulting rules again at the symbolic level.  The hybrid model thus necessarily constrains learning activities at deployment to those that do not alter topology or architecture.}
+
+
+\textcolor{blue}{
+Hazard analysis for LE components require special attention for assurance argument strategy and comprehensiveness~\cite{SafetyANN}.  For a generic neural network, strategy and argument completeness checks might include:
+\begin{itemize}
+\item Pattern matching functions for the network have been correctly mapped.  This criterion ensures the input and output mappings are correct. Establishing this correct function may require further decomposition.  Possible faults might include incorrect weights, incorrect topology, and inappropriate activations.  A failure mode is that valid input yields invalid network output and potentially lead to a hazard.  
+\item Observable behavior of the neural network must be predictable and repeatable.  {\em Observable\/} refers to the input-output mappings, not the weights inside the model.  {\em Repeatable\/} refers to the situation that previous safe state mapping or output does not become flawed or forgotten during learning.  Safety arguments may be concerned with providing, by way of behavioral constraints identified by hazard analysis, evidence that learning is controlled. Possible faults might include learning weight adaptations that flip a previously safe output to a hazardous output, exceeding memory capacity owing to added neurons, increasing network size leads to slower response time, or inappropriate learning updates.  Failure modes include value input leading to invalid output and a hazard, invalid resource usage according to time or space constraints, and deadline misses.  
+\item The neural network tolerates faults in its input.  This criterion allows the safety of the network to be assured for all input conditions. Justification may require application context, or operating mode, argumentation strategies.  A possible fault is that an input vector is not within a valid area of the data space.   A failure mode is network output leading to a hazardous state. 
+\item The neural network does not create hazardous output.  This criterion provides assurance that output is not hazardous regardless of the integrity of the input or the internal operation of the network.  Solutions may involve output monitors or bounds-checking filters.  A possible fault is that given an input vector the network has a fault.  A failure mode is network output leading to a hazardous state. The output may in fact be stale if the network does not update its output. 
+\end{itemize}
+Hazard analysis and argument completeness will identify faults and failure modes for the LE component.  The safety criteria can be argued in terms of the different modes of failure that they tackle.  
+}
+
+
+%\begin{itemize}
+% \item Textual templates are the most frequently found technique for evidence structuring. Study respondents reported rarely using argumentation-based graphical notation such as goal-structuring notation (GSN) or process models such as the OMG's software and system process engineering metamodel (SPEM).  Regarding argumentation-based graphical notations, the study authors note ``[t]he results suggest that a lot of research effort has been spent on a technique that has seen little industrial adoption thus far''.  We speculate, based on our experience building tool sets for such models, that the problem of quickly becoming unwieldy when modeling real-world products undermines the appeal of this technique. 
+% \item Process-based evidence, V&V plans, safety management plans
+% \item Product-based evidence, most frequent unsurprisingly are the requirements specification and the test results. Within the testing results are a wide range of common test types. 
+% \item The study authors mention their intrigue that evidence types concerning risks and hazards are not among the most frequently reported. 
+% \item Potential vulnerabilities reported in study: traceability of evidence dependencies upon update, using hyperlinks, naming conventions, traceability matrices, etc.
+% \item Practitioners most often use checklists and expert judgment (with rationale) for assessing evidence.  Quantitative methods (such as belief networks) and expert judgment (without rationale) were the least used assessment method.  
+% \item The highest challenge is determining the confidence in evidence supporting a claim about system safety.  A critical challenge is gathering the design and development artifacts along with the decision process involved to collect them.  
+% \item Formal verification results were used by fewer than 30\% of the study respondents.
+% \item Completeness of the evidence is checked {\em manually\/} and through a manual predefined process, according to more than half of the respondents. 
+% \item Advancing the ball along paths already favored by safety engineering industry will help with transition to practice and commercialization. 
+% \end{itemize}
+
+
+% One of the risks encountered when applying hazard analysis techniques is the volume and comprehensibility of data generated for a complicated system.  Our technical approach uses the DCA to manage and reason about these data, with safety constraints as the organizing feature.  The technology we use for the DCA can easily accommodate large volumes of data.  The ASP reasoning technique enables filtering and reducing the results into easily contrasted outcomes so that the practitioner can identify conflicts or missing elements.   
+
+% We will consider and mitigate validity threats to the design and implementation of our DAC. We will consider validation from four perspectives: {\em construct validity\/} (on the theory of DAC and its implementation), {\em conclusion validity\/} (claims to evidence), {\em  internal validity\/} (causal or logical relationships within an argument), and {\em external validity\/} (generalization of results).  We will prepare analyses and tests to support validity from each perspective.
+
+% We chose a particular technology to implement the reasoning engine for the DAC because We anticipate using its features and capabilities to support verification of the assurance argument.  However there are several potential sources of verification errors that present risks to meeting our objective.  Among these are modeling errors; testing harnesses and stubbed behaviors; property specification errors; incomplete test results; interpretation (assumption) errors; soundness vs. completeness inference errors in formal methods; artifact misinterpretation or corruption; and tool configuration managements and operation errors. To mitigate these risks we may include tool chain resiliency and benchmark suites for agreement confirmation; tool initialization and termination checks; intermediate representation checks (for analysis tool artifacts); and output proof checks.  
+
+% We aim to achieve considerable performance improvements in ASP solvers by way of specializing to a particular application.  Part of this specialization includes deployment for operations, where some expectation of availability and reliability of the DAC application will be imposed by the platform and demonstration.  The challenges become improving the run-time performance of ASP solvers; handling time synchronization across runtime system and potentially across multiple DAC instances; handling fresh and stale data mix; data service drops or corruption; handling defaults in the absence of data; recovery after stop; managing human intervention; and service degradations. We will explore multiple forms of modular and potentially translated forms of ASP solvers to address solution speed.  We will incorporate the DAC product and services into the system design as part of a safety-first implementation, potentially including hard real-time and safety features such as redundancy, checkpoints, and down-modes.
+ 
+
+
+
+% \subsection{Milestones}
+
+% \begin{table}[htbp]
+% \begin{center}
+% % \begin{tabular}{|p{0.25\textwidth}|p{0.15\textwidth}|p{0.5\textwidth}|}
+% \begin{tabulary}{\linewidth}{|LCLL|}
+% \hline
+% Name & Phase & Event & Goals \\ \hline
+% Design Review 1 & I & 6m & Establish architecture, state model element content, and TA interface specifications; establish experiment support and demo criteria \\ \hline
+% Preliminary Hazard Analysis & I & 8m & Exercise procedures and content collection for PHA to include ANN element(s) \\ \hline
+% Initial Operational Capability & I & 12m & Achieve initial end-to-end operation, with simulated system, with basic elements of our TA1, TA2 and TA3 implementations exchanging data for a simple scenario\\ \hline
+% Phase II Start & II & 0m & Establish performance objectives; assurance scale-up, overhead reduction, state and hazard counts, statistical measures \\ \hline
+% Design Review 2 & II & 3m & Establish architecture changes, identify design trades and analysis tasks, update interface specifications; establish experiment support and demo criteria \\ \hline
+% Phase III Start & III & 0m & Establish performance objectives; assurance scale-up, overhead reduction, state and hazard counts, statistical measures \\ \hline
+% Design Review 2 & III & 3m & Establish architecture changes, identify design trades and analysis tasks, update interface specifications; establish demo support and demo criteria \\ \hline
+% Final Report & III & 15m & Provide cumulative report and assessment \\ \hline
+% \end{tabulary}
+% \end{center}
+% \caption[TA3 milestones]{TA3 project milestones}
+% \label{tab:ta3:ms}
+% \end{table}
+
+% Table~\ref{tab:ta3:ms} provides our initial set of milestones for the project.  Our main threads of engineering work, to include the TA4 performer, will aim for communication and agreement at at collection of internal design reviews. 
+
+% In addition to the milestones, we will establish technical performance metrics for agreement at our design reviews.  Metrics likely will include both point and trend measures for characterizing technical performance.  Initial DAC-related time metrics may include interaction and run time considerations, such as data fetch time, DAC solution time, DAC query or reporting time, deadline misses, and characterizing the impact of learning and uncertainty on the computation times.  Initial space metrics may include system state counts, total DAC assertions, API traffic, and computing resource demands.  
+
+
+
+
+% Trustworthiness and qualification of the tool chain... cf. argument strategies and issues. 
+% Trustworthiness of computing systems... cf. MOD SEI SOBP argument templates.
+
+%High-level summary of system safety specification completeness requirements: 
+%\begin{itemize}
+%\item Demonstrate completeness of human-computer interface requirements
+%\item Demonstrate completeness of system state requirements
+%\item Demonstrate completeness of input and output variable requirements
+%\item Demonstrate completeness of requirements for events that trigger state changes
+%\item Demonstrate output specification completeness
+%\item Demonstrate completeness of output to trigger event relationship requirements
+%\item Demonstrate completeness of the specification of transitions between states
+%\item Demonstrate constraint satisfaction by showing that the requirements include the identified project-specific safety requirements and are consistent with the identified software system safety constraints
+%\item Demonstrate that the requirements are consistent with the general safety policy
+%\end{itemize}
+
+% \begin{itemize}
+% \item Safety-critical software is initialized, at first start and at restarts, to a known safe state.
+% \item Safety-critical software safely transitions between all predefined known states.
+% \item Termination performed by software of safety critical functions is performed to a known safe state.
+% \item Operator overrides of safety-critical software functions require at least two independent actions by an operator.
+% \item Safety-critical software rejects commands received out of sequence, when execution of those commands out of sequence can cause a hazard.
+% \item Safety-critical software detects inadvertent memory modification and recovers to a known safe state.
+% \item Safety-critical software performs integrity checks on inputs and outputs to/from the software system.
+% \item Safety-critical software performs prerequisite checks prior to the execution of safety-critical software commands.
+% \item No single software event or action is allowed to initiate an identified hazard.
+% \item Safety-critical software responds to an off nominal condition within the time needed to prevent a hazardous event.
+% \item Software provides error handling of safety-critical functions.
+% \item Safety-critical software has the capability to place the system into a safe state.
+% \item Safety-critical elements (requirements, design elements, code components, and interfaces) are uniquely identified as safety-critical.
+% \end{itemize}
+
+
+% \subsubsection{Dynamic Assurance Cases}
+
+
+%In recent years several extensions of ASP have been proposed to account for uncertainty. One approach, as used in P-log enhances ASP with some explicit probability assignments and additional implicitly derived probability numbers. In another approach, as used in $LP^{MLN}$ (and even in the much earlier introduced ASP with weak constraints), weight assignments are given explicitly and probability numbers are computed on top of them. We aim to explore several alternatives with an eye on efficient reasoning. 
+
+%For efficient implementation of our proposed enhancement of L with uncertainty, one approach we plan to explore is modularizing the ASP programs and making restrictions on the modules. For example, an ASP program with two modules, with the bottom part allowing disjunctions and the top part restricted to be a stratified program. 
+
+%Another approach we plan to explore is the use of soft logic, as done in probabilistic soft logic. 
+
+% \subsection{Project Plan and Deliverables}
+
+% During Phase I we will build the correspondence mechanisms for the safety-verification-monitor checks across the assurance case, and show how the case reasoning unfolds for both successful and unsuccessful events.   During Phase II we will expand these techniques to compositional arguments for multiple components acting together to comprise the system.   During Phase III we will further expand to include static analysis correspondence between source and binary images, and including results from dynamic analysis for other properties of interest to the assurance case.  
+
+% Table~\ref{tab:ta3:d} provides an outline of anticipated deliverables.  
+
+% \begin{table}[tbhp]
+% \begin{center}
+% \begin{tabulary}{\linewidth}{|L|C|C|C|}
+% \hline
+% Item & Phase I & Phase II & Phase III \\
+% \hline
+% DAC DSL Specification & v0, v1 & v2, v3 & v4, v5 \\
+% DAC ASP Runtime & v0, v1 & v2, v3 & v4, v5 \\
+% DAC Runtime API & v1 & v2 & v3 \\
+% DAC Performance Metrics & report & report & report \\
+% Technical Progress Report & monthly & monthly & monthly \\
+% Cumulative Progress Report & month 18 & month 15 & month 15 \\
+% Final Report & & & month 15 \\
+% Software & & month 15 & month 15 \\
+% \hline
+% \end{tabulary}
+% \end{center}
+% \caption[Schedule of deliverables]{Schedule of project deliverables}
+% \label{tab:ta3:d}
+% \end{table}
+

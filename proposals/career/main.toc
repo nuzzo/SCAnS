@@ -1,0 +1,30 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Table of Contents}{ii}{section.1}
+\contentsline {section}{\numberline {2}Executive Summary}{1}{section.2}
+\contentsline {section}{\numberline {3}Innovative Claims and Deliverables}{5}{section.3}
+\contentsline {paragraph}{Design for Assurance}{5}{section*.2}
+\contentsline {paragraph}{Assurance Monitoring and Control}{5}{section*.3}
+\contentsline {paragraph}{Dynamic Assurance}{6}{section*.4}
+\contentsline {paragraph}{Deliverables}{6}{section*.5}
+\contentsline {section}{\numberline {4}Technical Plan}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Design for Assurance}{7}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Current Approaches}{7}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}System Architecture and Design Approach}{8}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Assurance Monitoring and Control}{15}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Current Approaches and State-of-the-Art}{15}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Approach}{15}{subsubsection.4.2.2}
+\contentsline {paragraph}{Scalable Safety-Aware Learning}{15}{section*.14}
+\contentsline {paragraph}{Scalable Assurance Monitoring}{18}{section*.15}
+\contentsline {paragraph}{Detecting Distributional Shifts}{19}{section*.16}
+\contentsline {subsection}{\numberline {4.3}Dynamic Assurance}{19}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Current Approaches and Issues}{19}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Approach}{22}{subsubsection.4.3.2}
+\contentsline {paragraph}{Domain Specific Language}{22}{section*.20}
+\contentsline {paragraph}{Assurance Solver Implementations}{22}{section*.22}
+\contentsline {paragraph}{Integration and Demonstration}{24}{section*.23}
+\contentsline {section}{\numberline {5}Management Plan}{27}{section.5}
+\contentsline {section}{\numberline {6}Personnel, Qualifications and Commitment}{29}{section.6}
+\contentsline {section}{\numberline {7}Capabilities}{32}{section.7}
+\contentsline {section}{\numberline {8}Statement of Work}{33}{section.8}
+\contentsline {section}{\numberline {9}Schedule and Milestones}{37}{section.9}
+\contentsline {section}{Appendix A: Team Members and Other Information}{39}{section*.33}

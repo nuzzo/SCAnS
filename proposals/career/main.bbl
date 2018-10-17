@@ -1,0 +1,104 @@
+\begin{thebibliography}{10}
+
+\bibitem{Alur2006}
+{\sc Alur, R., Dang, T., and Ivan{\v{c}}i{\'c}, F.}
+\newblock Counterexample-guided predicate abstraction of hybrid systems.
+\newblock {\em Theoretical Computer Science 354}, 2 (2006), 250--271.
+
+\bibitem{Alur00}
+{\sc Alur, R., Henzinger, T., Lafferriere, G., and Pappas, G.}
+\newblock Discrete abstractions of hybrid systems.
+\newblock {\em Proc. IEEE 88}, 7 (July 2000), 971--984.
+
+\bibitem{Blum97}
+{\sc Blum, A.~L., and Langley, P.}
+\newblock Selection of relevant features and examples in machine learning.
+\newblock {\em Artificial intelligence 97}, 1 (1997), 245--271.
+
+\bibitem{Chutinan01}
+{\sc Chutinan, A., and Krogh, B.}
+\newblock Verification of infinite-state dynamic systems using approximate
+  quotient transition systems.
+\newblock {\em IEEE Trans. Automatic Control 46}, 9 (Sep 2001), 1401--1410.
+
+\bibitem{Cousot77}
+{\sc Cousot, P., and Cousot, R.}
+\newblock Abstract interpretation: a unified lattice model for static analysis
+  of programs by construction or approximation of fixpoints.
+\newblock In {\em POPL\/} (1977), ACM, pp.~238--252.
+
+\bibitem{Dang10}
+{\sc Dang, T., Maler, O., and Testylier, R.}
+\newblock Accurate hybridization of nonlinear systems.
+\newblock In {\em Proc. Hybrid Systems: Computation and Control\/} (New York,
+  NY, USA, 2010), HSCC '10, ACM, pp.~11--20.
+
+\bibitem{Frehse2008}
+{\sc Frehse, G.}
+\newblock {PHAVer: algorithmic verification of hybrid systems past HyTech}.
+\newblock {\em Int. J. Software Tools for Technology Transfer 10\/} (2008),
+  263--279.
+
+\bibitem{Henzinger98}
+{\sc Henzinger, T., Ho, P.-H., and Wong-Toi, H.}
+\newblock Algorithmic analysis of nonlinear hybrid systems.
+\newblock {\em IEEE Trans. Automatic Control 43}, 4 (Apr. 1998), 540--554.
+
+\bibitem{Jia14}
+{\sc Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R.,
+  Guadarrama, S., and Darrell, T.}
+\newblock Caffe: Convolutional architecture for fast feature embedding.
+\newblock In {\em Proceedings of the 22nd ACM international conference on
+  Multimedia\/} (2014), ACM, pp.~675--678.
+
+\bibitem{Kalra16}
+{\sc Kalra, N., and Paddock, S.~M.}
+\newblock Driving to safety: How many miles of driving would it take to
+  demonstrate autonomous vehicle reliability?
+\newblock {\em Transportation Research Part A: Policy and Practice 94\/}
+  (2016), 182--193.
+
+\bibitem{Malik09}
+{\sc Malik, S., and Zhang, L.}
+\newblock Boolean satisfiability from theoretical hardness to practical
+  success.
+\newblock {\em Communications of the ACM 52}, 8 (2009), 76--82.
+
+\bibitem{Michalski13}
+{\sc Michalski, R.~S., Carbonell, J.~G., and Mitchell, T.~M.}
+\newblock {\em Machine learning: An artificial intelligence approach}.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem{Nuzzo15b}
+{\sc Nuzzo, P., Sangiovanni-Vincentelli, A., Bresolin, D., Geretti, L., and
+  Villa, T.}
+\newblock A platform-based design methodology with contracts and related tools
+  for the design of cyber-physical systems.
+\newblock {\em Proc. IEEE 103}, 11 (Nov. 2015).
+
+\bibitem{Passerone2007}
+{\sc Passerone, R., Burch, J.~R., and Sangiovanni-Vincentelli, A.~L.}
+\newblock Refinement preserving approximations for the design and verification
+  of heterogeneous systems.
+\newblock {\em Formal Methods in System Design 31}, 1 (Aug 2007), 1--33.
+
+\bibitem{Sangiovanni-Vincentelli2012a}
+{\sc Sangiovanni-Vincentelli, A., Damm, W., and Passerone, R.}
+\newblock {Taming Dr. Frankenstein: Contract-Based Design for Cyber-Physical
+  Systems}.
+\newblock {\em European Journal of Control 18-3}, 3 (2012), 217--238.
+
+\bibitem{Shoukry2017}
+{\sc Shoukry, Y., Nuzzo, P., Sangiovanni-Vincentelli, A.~L., Seshia, S.~A.,
+  Pappas, G.~J., and Tabuada, P.}
+\newblock {SMC}: Satisfiability modulo convex optimization.
+\newblock In {\em Proc. Hybrid Systems: Computation and Control\/} (2017),
+  pp.~19--28.
+
+\bibitem{Szegedy2013}
+{\sc Szegedy, C., Zaremba, W., Sutskever, I., Bruna, J., Erhan, D., Goodfellow,
+  I., and Fergus, R.}
+\newblock Intriguing properties of neural networks.
+\newblock {\em arXiv preprint arXiv:1312.6199\/} (2013).
+
+\end{thebibliography}

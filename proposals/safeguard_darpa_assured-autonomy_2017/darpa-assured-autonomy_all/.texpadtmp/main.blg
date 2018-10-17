@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/nuzzo/Documents/gitrepo/proposals/safeguard_darpa_assured-autonomy_2017/darpa-assured-autonomy_all/.texpadtmp/main.aux
+A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: sow.aux
+A level-1 auxiliary file: milestones.aux
+A level-1 auxiliary file: appendix_a.aux
+The style file: acm.bst
+Database file #1: ../TA3/ta3.bib
+Database file #2: ../TA2/ta2.bib
+Database file #3: ../TA1/ta1.bib
+A bad cross reference---entry "DBLP:conf/popl/CousotH78"
+refers to entry "DBLP:conf/popl/1978", which doesn't exist
+A bad cross reference---entry "DBLP:conf/popl/SankaranarayananSM04"
+refers to entry "DBLP:conf/popl/2004", which doesn't exist
+A bad cross reference---entry "DBLP:conf/vmcai/SankaranarayananSM05"
+refers to entry "DBLP:conf/vmcai/2005", which doesn't exist
+A bad cross reference---entry "DBLP:conf/vmcai/SankaranarayananCSM06"
+refers to entry "DBLP:conf/vmcai/2006", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/vmcai/2006"
+Warning--I didn't find a database entry for "DBLP:conf/vmcai/2005"
+Warning--I didn't find a database entry for "DBLP:conf/popl/2004"
+Warning--I didn't find a database entry for "DBLP:conf/popl/1978"
+Warning--to sort, need author or key in 2017OpenModelica
+Warning--to sort, need author or key in 2017WolframAnalysis
+Warning--to sort, need author or key in 2017MapleSimSoftware
+Warning--to sort, need author or key in 2017SimscapeSimulink
+Warning--to sort, need author or key in 2017DymolaSimulation
+Warning--empty journal in BergerOnSystems
+Warning--empty journal in SafetyANN
+Warning--empty institution in RESSJ2013
+Warning--empty booktitle in Nuzzo17
+Warning--empty booktitle in Rosu08
+Warning--can't use both author and editor fields in smodels
+You've used 116 entries,
+            2253 wiz_defined-function locations,
+            1310 strings with 28192 characters,
+and the built_in function-call counts, 40944 in all, are:
+= -- 3906
+> -- 1879
+< -- 1
++ -- 787
+- -- 657
+* -- 3059
+:= -- 6388
+add.period$ -- 342
+call.type$ -- 116
+change.case$ -- 660
+chr.to.int$ -- 0
+cite$ -- 127
+duplicate$ -- 1685
+empty$ -- 3417
+format.name$ -- 657
+if$ -- 8742
+int.to.chr$ -- 0
+int.to.str$ -- 116
+missing$ -- 120
+newline$ -- 572
+num.names$ -- 226
+pop$ -- 846
+preamble$ -- 1
+purify$ -- 556
+quote$ -- 0
+skip$ -- 1103
+stack$ -- 0
+substring$ -- 2384
+swap$ -- 493
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 436
+warning$ -- 11
+while$ -- 380
+width$ -- 119
+write$ -- 1157
+(There were 4 error messages)
