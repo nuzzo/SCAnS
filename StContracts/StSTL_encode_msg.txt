@@ -1,0 +1,442 @@
+In add_formula(): And(AP(1,0),AP(2,0)) given by user with sat_time_hint = -1
+In search_track_formula(): formula And(AP(1,0),AP(2,0)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula AP(1,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 2
+In search_track_formula(): formula AP(2,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 3
+In add_formula(): AP(1,0), formu_index = 2, sat_time_hint = -1, neg_prefix = 0
+In add_formula(): AP(2,0), formu_index = 3, sat_time_hint = -1, neg_prefix = 0
+In add_and(), sub_index(1) = 2
+In add_and(), sub_index(2) = 3
+In add_and(), sub_num = 2, formu_index = 1
+In enforce_formula(): type = hard
+In add_formula(): Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)) given by user with sat_time_hint = -1
+In search_track_formula(): formula Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula Not(And(AP(1,0),AP(2,0))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 2
+In search_track_formula(): formula Eventual(Not(AP(3)),1,3) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 3
+In add_formula(): Not(And(AP(1,0),AP(2,0))), formu_index = 2, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula And(AP(1,0),AP(2,0)) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 4
+In add_formula(): And(AP(1,0),AP(2,0)), formu_index = 4, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula AP(1,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 5
+In search_track_formula(): formula AP(2,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 6
+In add_formula(): AP(1,0), formu_index = 5, sat_time_hint = -1, neg_prefix = 1
+In add_formula(): AP(2,0), formu_index = 6, sat_time_hint = -1, neg_prefix = 1
+In add_and(), sub_index(1) = 5
+In add_and(), sub_index(2) = 6
+In add_formula(): Eventual(Not(AP(3)),1,3), formu_index = 3, sat_time_hint = -1, neg_prefix = 0
+In add_eventual(), sat_time_hint = -1, neg_prefix = 0, t_start = 1, t_end = 3
+In search_track_formula(): formula Or(Not(AP(3))) with sat_time_hint = 1  2  3, neg_prefix = 0 is new and tracked. formu_index = 7
+In add_formula(): Or(Not(AP(3))), formu_index = 7, sat_time_hint = 1  2  3, neg_prefix = 0
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 1, neg_prefix = 0 is new and tracked. formu_index = 8
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 2, neg_prefix = 0 is new and tracked. formu_index = 9
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 3, neg_prefix = 0 is new and tracked. formu_index = 10
+In add_formula(): Not(AP(3)), formu_index = 8, sat_time_hint = 1, neg_prefix = 0
+In search_track_formula(): formula AP(3) with sat_time_hint = 1, neg_prefix = 1 is new and tracked. formu_index = 11
+In add_formula(): AP(3), formu_index = 11, sat_time_hint = 1, neg_prefix = 1
+In add_formula(): Not(AP(3)), formu_index = 9, sat_time_hint = 2, neg_prefix = 0
+In search_track_formula(): formula AP(3) with sat_time_hint = 2, neg_prefix = 1 is new and tracked. formu_index = 12
+In add_formula(): AP(3), formu_index = 12, sat_time_hint = 2, neg_prefix = 1
+In add_formula(): Not(AP(3)), formu_index = 10, sat_time_hint = 3, neg_prefix = 0
+In search_track_formula(): formula AP(3) with sat_time_hint = 3, neg_prefix = 1 is new and tracked. formu_index = 13
+In add_formula(): AP(3), formu_index = 13, sat_time_hint = 3, neg_prefix = 1
+In enforce_formula(): type = hard
+In add_formula(): AP(4,0) given by user with sat_time_hint = -1
+In search_track_formula(): formula AP(4,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In enforce_formula(): type = hard
+In add_formula(): Or(Not(AP(4,0)),Global(Not(AP(5)),1,3)) given by user with sat_time_hint = -1
+In search_track_formula(): formula Or(Not(AP(4,0)),Global(Not(AP(5)),1,3)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula Not(AP(4,0)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 2
+In search_track_formula(): formula Global(Not(AP(5)),1,3) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 3
+In add_formula(): Not(AP(4,0)), formu_index = 2, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula AP(4,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 4
+In add_formula(): AP(4,0), formu_index = 4, sat_time_hint = -1, neg_prefix = 1
+In add_formula(): Global(Not(AP(5)),1,3), formu_index = 3, sat_time_hint = -1, neg_prefix = 0
+In add_always(), sat_time_hint = -1, neg_prefix = 0, t_start = 1, t_end = 3
+In search_track_formula(): formula And(Not(AP(5))) with sat_time_hint = 1  2  3, neg_prefix = 0 is new and tracked. formu_index = 5
+In add_formula(): And(Not(AP(5))), formu_index = 5, sat_time_hint = 1  2  3, neg_prefix = 0
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 1, neg_prefix = 0 is new and tracked. formu_index = 6
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 2, neg_prefix = 0 is new and tracked. formu_index = 7
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 3, neg_prefix = 0 is new and tracked. formu_index = 8
+In add_formula(): Not(AP(5)), formu_index = 6, sat_time_hint = 1, neg_prefix = 0
+In search_track_formula(): formula AP(5) with sat_time_hint = 1, neg_prefix = 1 is new and tracked. formu_index = 9
+In add_formula(): AP(5), formu_index = 9, sat_time_hint = 1, neg_prefix = 1
+In add_formula(): Not(AP(5)), formu_index = 7, sat_time_hint = 2, neg_prefix = 0
+In search_track_formula(): formula AP(5) with sat_time_hint = 2, neg_prefix = 1 is new and tracked. formu_index = 10
+In add_formula(): AP(5), formu_index = 10, sat_time_hint = 2, neg_prefix = 1
+In add_formula(): Not(AP(5)), formu_index = 8, sat_time_hint = 3, neg_prefix = 0
+In search_track_formula(): formula AP(5) with sat_time_hint = 3, neg_prefix = 1 is new and tracked. formu_index = 11
+In add_formula(): AP(5), formu_index = 11, sat_time_hint = 3, neg_prefix = 1
+In add_and(), sub_index(1) = 6
+In add_and(), sub_index(2) = 7
+In add_and(), sub_index(3) = 8
+In add_and(), sub_num = 3, formu_index = 5
+In enforce_formula(): type = hard
+In add_formula(): And(And(AP(1,0),AP(2,0)),Not(AP(4,0))) given by user with sat_time_hint = -1
+In search_track_formula(): formula And(And(AP(1,0),AP(2,0)),Not(AP(4,0))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula And(AP(1,0),AP(2,0)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 2
+In search_track_formula(): formula Not(AP(4,0)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 3
+In add_formula(): And(AP(1,0),AP(2,0)), formu_index = 2, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula AP(1,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 4
+In search_track_formula(): formula AP(2,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 5
+In add_formula(): AP(1,0), formu_index = 4, sat_time_hint = -1, neg_prefix = 0
+In add_formula(): AP(2,0), formu_index = 5, sat_time_hint = -1, neg_prefix = 0
+In add_and(), sub_index(1) = 4
+In add_and(), sub_index(2) = 5
+In add_and(), sub_num = 2, formu_index = 2
+In add_formula(): Not(AP(4,0)), formu_index = 3, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula AP(4,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 6
+In add_formula(): AP(4,0), formu_index = 6, sat_time_hint = -1, neg_prefix = 1
+In add_and(), sub_index(1) = 2
+In add_and(), sub_index(2) = 3
+In add_and(), sub_num = 2, formu_index = 1
+In enforce_formula(): type = hard
+In add_formula(): Not(Or(Not(Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))),Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)))) given by user with sat_time_hint = -1
+In search_track_formula(): formula Not(Or(Not(Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))),Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula Or(Not(Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))),Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3))) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 2
+In add_formula(): Or(Not(Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))),Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3))), formu_index = 2, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula Not(Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 3
+In search_track_formula(): formula Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 4
+In add_formula(): Not(Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))), formu_index = 3, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula Or(Not(AP(4,0)),Global(Not(AP(5)),1,3)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 5
+In add_formula(): Or(Not(AP(4,0)),Global(Not(AP(5)),1,3)), formu_index = 5, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula Not(AP(4,0)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 6
+In search_track_formula(): formula Global(Not(AP(5)),1,3) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 7
+In add_formula(): Not(AP(4,0)), formu_index = 6, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula AP(4,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 8
+In add_formula(): AP(4,0), formu_index = 8, sat_time_hint = -1, neg_prefix = 1
+In add_formula(): Global(Not(AP(5)),1,3), formu_index = 7, sat_time_hint = -1, neg_prefix = 0
+In add_always(), sat_time_hint = -1, neg_prefix = 0, t_start = 1, t_end = 3
+In search_track_formula(): formula And(Not(AP(5))) with sat_time_hint = 1  2  3, neg_prefix = 0 is new and tracked. formu_index = 9
+In add_formula(): And(Not(AP(5))), formu_index = 9, sat_time_hint = 1  2  3, neg_prefix = 0
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 1, neg_prefix = 0 is new and tracked. formu_index = 10
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 2, neg_prefix = 0 is new and tracked. formu_index = 11
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 3, neg_prefix = 0 is new and tracked. formu_index = 12
+In add_formula(): Not(AP(5)), formu_index = 10, sat_time_hint = 1, neg_prefix = 0
+In search_track_formula(): formula AP(5) with sat_time_hint = 1, neg_prefix = 1 is new and tracked. formu_index = 13
+In add_formula(): AP(5), formu_index = 13, sat_time_hint = 1, neg_prefix = 1
+In add_formula(): Not(AP(5)), formu_index = 11, sat_time_hint = 2, neg_prefix = 0
+In search_track_formula(): formula AP(5) with sat_time_hint = 2, neg_prefix = 1 is new and tracked. formu_index = 14
+In add_formula(): AP(5), formu_index = 14, sat_time_hint = 2, neg_prefix = 1
+In add_formula(): Not(AP(5)), formu_index = 12, sat_time_hint = 3, neg_prefix = 0
+In search_track_formula(): formula AP(5) with sat_time_hint = 3, neg_prefix = 1 is new and tracked. formu_index = 15
+In add_formula(): AP(5), formu_index = 15, sat_time_hint = 3, neg_prefix = 1
+In add_and(), sub_index(1) = 10
+In add_and(), sub_index(2) = 11
+In add_and(), sub_index(3) = 12
+In add_and(), sub_num = 3, formu_index = 9
+In add_formula(): Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)), formu_index = 4, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula Not(And(AP(1,0),AP(2,0))) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 16
+In search_track_formula(): formula Eventual(Not(AP(3)),1,3) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 17
+In add_formula(): Not(And(AP(1,0),AP(2,0))), formu_index = 16, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula And(AP(1,0),AP(2,0)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 18
+In add_formula(): And(AP(1,0),AP(2,0)), formu_index = 18, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula AP(1,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 19
+In search_track_formula(): formula AP(2,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 20
+In add_formula(): AP(1,0), formu_index = 19, sat_time_hint = -1, neg_prefix = 0
+In add_formula(): AP(2,0), formu_index = 20, sat_time_hint = -1, neg_prefix = 0
+In add_and(), sub_index(1) = 19
+In add_and(), sub_index(2) = 20
+In add_and(), sub_num = 2, formu_index = 18
+In add_formula(): Eventual(Not(AP(3)),1,3), formu_index = 17, sat_time_hint = -1, neg_prefix = 1
+In add_eventual(), sat_time_hint = -1, neg_prefix = 1, t_start = 1, t_end = 3
+In search_track_formula(): formula Or(Not(AP(3))) with sat_time_hint = 1  2  3, neg_prefix = 1 is new and tracked. formu_index = 21
+In add_formula(): Or(Not(AP(3))), formu_index = 21, sat_time_hint = 1  2  3, neg_prefix = 1
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 1, neg_prefix = 1 is new and tracked. formu_index = 22
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 2, neg_prefix = 1 is new and tracked. formu_index = 23
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 3, neg_prefix = 1 is new and tracked. formu_index = 24
+In add_formula(): Not(AP(3)), formu_index = 22, sat_time_hint = 1, neg_prefix = 1
+In search_track_formula(): formula AP(3) with sat_time_hint = 1, neg_prefix = 0 is new and tracked. formu_index = 25
+In add_formula(): AP(3), formu_index = 25, sat_time_hint = 1, neg_prefix = 0
+In add_formula(): Not(AP(3)), formu_index = 23, sat_time_hint = 2, neg_prefix = 1
+In search_track_formula(): formula AP(3) with sat_time_hint = 2, neg_prefix = 0 is new and tracked. formu_index = 26
+In add_formula(): AP(3), formu_index = 26, sat_time_hint = 2, neg_prefix = 0
+In add_formula(): Not(AP(3)), formu_index = 24, sat_time_hint = 3, neg_prefix = 1
+In search_track_formula(): formula AP(3) with sat_time_hint = 3, neg_prefix = 0 is new and tracked. formu_index = 27
+In add_formula(): AP(3), formu_index = 27, sat_time_hint = 3, neg_prefix = 0
+In enforce_formula(): type = hard
+In add_formula(): And(AP(4,0),Not(And(AP(1,0),AP(2,0)))) given by user with sat_time_hint = -1
+In search_track_formula(): formula And(AP(4,0),Not(And(AP(1,0),AP(2,0)))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula AP(4,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 2
+In search_track_formula(): formula Not(And(AP(1,0),AP(2,0))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 3
+In add_formula(): AP(4,0), formu_index = 2, sat_time_hint = -1, neg_prefix = 0
+In add_formula(): Not(And(AP(1,0),AP(2,0))), formu_index = 3, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula And(AP(1,0),AP(2,0)) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 4
+In add_formula(): And(AP(1,0),AP(2,0)), formu_index = 4, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula AP(1,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 5
+In search_track_formula(): formula AP(2,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 6
+In add_formula(): AP(1,0), formu_index = 5, sat_time_hint = -1, neg_prefix = 1
+In add_formula(): AP(2,0), formu_index = 6, sat_time_hint = -1, neg_prefix = 1
+In add_and(), sub_index(1) = 5
+In add_and(), sub_index(2) = 6
+In add_and(), sub_index(1) = 2
+In add_and(), sub_index(2) = 3
+In add_and(), sub_num = 2, formu_index = 1
+In enforce_formula(): type = hard
+In add_formula(): And(AP(1,0),AP(2,0)) given by user with sat_time_hint = -1
+In search_track_formula(): formula And(AP(1,0),AP(2,0)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula AP(1,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 2
+In search_track_formula(): formula AP(2,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 3
+In add_formula(): AP(1,0), formu_index = 2, sat_time_hint = -1, neg_prefix = 0
+In add_formula(): AP(2,0), formu_index = 3, sat_time_hint = -1, neg_prefix = 0
+In add_and(), sub_index(1) = 2
+In add_and(), sub_index(2) = 3
+In add_and(), sub_num = 2, formu_index = 1
+In enforce_formula(): type = hard
+In add_formula(): Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)) given by user with sat_time_hint = -1
+In search_track_formula(): formula Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula Not(And(AP(1,0),AP(2,0))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 2
+In search_track_formula(): formula Eventual(Not(AP(3)),1,3) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 3
+In add_formula(): Not(And(AP(1,0),AP(2,0))), formu_index = 2, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula And(AP(1,0),AP(2,0)) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 4
+In add_formula(): And(AP(1,0),AP(2,0)), formu_index = 4, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula AP(1,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 5
+In search_track_formula(): formula AP(2,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 6
+In add_formula(): AP(1,0), formu_index = 5, sat_time_hint = -1, neg_prefix = 1
+In add_formula(): AP(2,0), formu_index = 6, sat_time_hint = -1, neg_prefix = 1
+In add_and(), sub_index(1) = 5
+In add_and(), sub_index(2) = 6
+In add_formula(): Eventual(Not(AP(3)),1,3), formu_index = 3, sat_time_hint = -1, neg_prefix = 0
+In add_eventual(), sat_time_hint = -1, neg_prefix = 0, t_start = 1, t_end = 3
+In search_track_formula(): formula Or(Not(AP(3))) with sat_time_hint = 1  2  3, neg_prefix = 0 is new and tracked. formu_index = 7
+In add_formula(): Or(Not(AP(3))), formu_index = 7, sat_time_hint = 1  2  3, neg_prefix = 0
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 1, neg_prefix = 0 is new and tracked. formu_index = 8
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 2, neg_prefix = 0 is new and tracked. formu_index = 9
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 3, neg_prefix = 0 is new and tracked. formu_index = 10
+In add_formula(): Not(AP(3)), formu_index = 8, sat_time_hint = 1, neg_prefix = 0
+In search_track_formula(): formula AP(3) with sat_time_hint = 1, neg_prefix = 1 is new and tracked. formu_index = 11
+In add_formula(): AP(3), formu_index = 11, sat_time_hint = 1, neg_prefix = 1
+In AP_to_suffi_MIP_GaussLin(): posi_eigen_num = 1
+In add_formula(): Not(AP(3)), formu_index = 9, sat_time_hint = 2, neg_prefix = 0
+In search_track_formula(): formula AP(3) with sat_time_hint = 2, neg_prefix = 1 is new and tracked. formu_index = 12
+In add_formula(): AP(3), formu_index = 12, sat_time_hint = 2, neg_prefix = 1
+In AP_to_suffi_MIP_GaussLin(): posi_eigen_num = 2
+In add_formula(): Not(AP(3)), formu_index = 10, sat_time_hint = 3, neg_prefix = 0
+In search_track_formula(): formula AP(3) with sat_time_hint = 3, neg_prefix = 1 is new and tracked. formu_index = 13
+In add_formula(): AP(3), formu_index = 13, sat_time_hint = 3, neg_prefix = 1
+In AP_to_suffi_MIP_GaussLin(): posi_eigen_num = 3
+In enforce_formula(): type = hard
+In add_formula(): AP(4,0) given by user with sat_time_hint = -1
+In search_track_formula(): formula AP(4,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In enforce_formula(): type = hard
+In add_formula(): Or(Not(AP(4,0)),Global(Not(AP(5)),1,3)) given by user with sat_time_hint = -1
+In search_track_formula(): formula Or(Not(AP(4,0)),Global(Not(AP(5)),1,3)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula Not(AP(4,0)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 2
+In search_track_formula(): formula Global(Not(AP(5)),1,3) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 3
+In add_formula(): Not(AP(4,0)), formu_index = 2, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula AP(4,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 4
+In add_formula(): AP(4,0), formu_index = 4, sat_time_hint = -1, neg_prefix = 1
+In add_formula(): Global(Not(AP(5)),1,3), formu_index = 3, sat_time_hint = -1, neg_prefix = 0
+In add_always(), sat_time_hint = -1, neg_prefix = 0, t_start = 1, t_end = 3
+In search_track_formula(): formula And(Not(AP(5))) with sat_time_hint = 1  2  3, neg_prefix = 0 is new and tracked. formu_index = 5
+In add_formula(): And(Not(AP(5))), formu_index = 5, sat_time_hint = 1  2  3, neg_prefix = 0
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 1, neg_prefix = 0 is new and tracked. formu_index = 6
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 2, neg_prefix = 0 is new and tracked. formu_index = 7
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 3, neg_prefix = 0 is new and tracked. formu_index = 8
+In add_formula(): Not(AP(5)), formu_index = 6, sat_time_hint = 1, neg_prefix = 0
+In search_track_formula(): formula AP(5) with sat_time_hint = 1, neg_prefix = 1 is new and tracked. formu_index = 9
+In add_formula(): AP(5), formu_index = 9, sat_time_hint = 1, neg_prefix = 1
+In AP_to_suffi_MIP_GaussLin(): posi_eigen_num = 1
+In add_formula(): Not(AP(5)), formu_index = 7, sat_time_hint = 2, neg_prefix = 0
+In search_track_formula(): formula AP(5) with sat_time_hint = 2, neg_prefix = 1 is new and tracked. formu_index = 10
+In add_formula(): AP(5), formu_index = 10, sat_time_hint = 2, neg_prefix = 1
+In AP_to_suffi_MIP_GaussLin(): posi_eigen_num = 2
+In add_formula(): Not(AP(5)), formu_index = 8, sat_time_hint = 3, neg_prefix = 0
+In search_track_formula(): formula AP(5) with sat_time_hint = 3, neg_prefix = 1 is new and tracked. formu_index = 11
+In add_formula(): AP(5), formu_index = 11, sat_time_hint = 3, neg_prefix = 1
+In AP_to_suffi_MIP_GaussLin(): posi_eigen_num = 3
+In add_and(), sub_index(1) = 6
+In add_and(), sub_index(2) = 7
+In add_and(), sub_index(3) = 8
+In add_and(), sub_num = 3, formu_index = 5
+In enforce_formula(): type = hard
+In add_formula(): And(And(AP(1,0),AP(2,0)),Not(AP(4,0))) given by user with sat_time_hint = -1
+In search_track_formula(): formula And(And(AP(1,0),AP(2,0)),Not(AP(4,0))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula And(AP(1,0),AP(2,0)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 2
+In search_track_formula(): formula Not(AP(4,0)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 3
+In add_formula(): And(AP(1,0),AP(2,0)), formu_index = 2, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula AP(1,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 4
+In search_track_formula(): formula AP(2,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 5
+In add_formula(): AP(1,0), formu_index = 4, sat_time_hint = -1, neg_prefix = 0
+In add_formula(): AP(2,0), formu_index = 5, sat_time_hint = -1, neg_prefix = 0
+In add_and(), sub_index(1) = 4
+In add_and(), sub_index(2) = 5
+In add_and(), sub_num = 2, formu_index = 2
+In add_formula(): Not(AP(4,0)), formu_index = 3, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula AP(4,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 6
+In add_formula(): AP(4,0), formu_index = 6, sat_time_hint = -1, neg_prefix = 1
+In add_and(), sub_index(1) = 2
+In add_and(), sub_index(2) = 3
+In add_and(), sub_num = 2, formu_index = 1
+In enforce_formula(): type = hard
+In add_formula(): Not(Or(Not(Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))),Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)))) given by user with sat_time_hint = -1
+In search_track_formula(): formula Not(Or(Not(Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))),Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula Or(Not(Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))),Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3))) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 2
+In add_formula(): Or(Not(Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))),Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3))), formu_index = 2, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula Not(Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 3
+In search_track_formula(): formula Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 4
+In add_formula(): Not(Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))), formu_index = 3, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula Or(Not(AP(4,0)),Global(Not(AP(5)),1,3)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 5
+In add_formula(): Or(Not(AP(4,0)),Global(Not(AP(5)),1,3)), formu_index = 5, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula Not(AP(4,0)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 6
+In search_track_formula(): formula Global(Not(AP(5)),1,3) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 7
+In add_formula(): Not(AP(4,0)), formu_index = 6, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula AP(4,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 8
+In add_formula(): AP(4,0), formu_index = 8, sat_time_hint = -1, neg_prefix = 1
+In add_formula(): Global(Not(AP(5)),1,3), formu_index = 7, sat_time_hint = -1, neg_prefix = 0
+In add_always(), sat_time_hint = -1, neg_prefix = 0, t_start = 1, t_end = 3
+In search_track_formula(): formula And(Not(AP(5))) with sat_time_hint = 1  2  3, neg_prefix = 0 is new and tracked. formu_index = 9
+In add_formula(): And(Not(AP(5))), formu_index = 9, sat_time_hint = 1  2  3, neg_prefix = 0
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 1, neg_prefix = 0 is new and tracked. formu_index = 10
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 2, neg_prefix = 0 is new and tracked. formu_index = 11
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 3, neg_prefix = 0 is new and tracked. formu_index = 12
+In add_formula(): Not(AP(5)), formu_index = 10, sat_time_hint = 1, neg_prefix = 0
+In search_track_formula(): formula AP(5) with sat_time_hint = 1, neg_prefix = 1 is new and tracked. formu_index = 13
+In add_formula(): AP(5), formu_index = 13, sat_time_hint = 1, neg_prefix = 1
+In AP_to_neces_MIP_GaussLin(): posi_eigen_num = 1
+In add_formula(): Not(AP(5)), formu_index = 11, sat_time_hint = 2, neg_prefix = 0
+In search_track_formula(): formula AP(5) with sat_time_hint = 2, neg_prefix = 1 is new and tracked. formu_index = 14
+In add_formula(): AP(5), formu_index = 14, sat_time_hint = 2, neg_prefix = 1
+In AP_to_neces_MIP_GaussLin(): posi_eigen_num = 2
+In add_formula(): Not(AP(5)), formu_index = 12, sat_time_hint = 3, neg_prefix = 0
+In search_track_formula(): formula AP(5) with sat_time_hint = 3, neg_prefix = 1 is new and tracked. formu_index = 15
+In add_formula(): AP(5), formu_index = 15, sat_time_hint = 3, neg_prefix = 1
+In AP_to_neces_MIP_GaussLin(): posi_eigen_num = 3
+In add_and(), sub_index(1) = 10
+In add_and(), sub_index(2) = 11
+In add_and(), sub_index(3) = 12
+In add_and(), sub_num = 3, formu_index = 9
+In add_formula(): Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)), formu_index = 4, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula Not(And(AP(1,0),AP(2,0))) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 16
+In search_track_formula(): formula Eventual(Not(AP(3)),1,3) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 17
+In add_formula(): Not(And(AP(1,0),AP(2,0))), formu_index = 16, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula And(AP(1,0),AP(2,0)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 18
+In add_formula(): And(AP(1,0),AP(2,0)), formu_index = 18, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula AP(1,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 19
+In search_track_formula(): formula AP(2,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 20
+In add_formula(): AP(1,0), formu_index = 19, sat_time_hint = -1, neg_prefix = 0
+In add_formula(): AP(2,0), formu_index = 20, sat_time_hint = -1, neg_prefix = 0
+In add_and(), sub_index(1) = 19
+In add_and(), sub_index(2) = 20
+In add_and(), sub_num = 2, formu_index = 18
+In add_formula(): Eventual(Not(AP(3)),1,3), formu_index = 17, sat_time_hint = -1, neg_prefix = 1
+In add_eventual(), sat_time_hint = -1, neg_prefix = 1, t_start = 1, t_end = 3
+In search_track_formula(): formula Or(Not(AP(3))) with sat_time_hint = 1  2  3, neg_prefix = 1 is new and tracked. formu_index = 21
+In add_formula(): Or(Not(AP(3))), formu_index = 21, sat_time_hint = 1  2  3, neg_prefix = 1
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 1, neg_prefix = 1 is new and tracked. formu_index = 22
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 2, neg_prefix = 1 is new and tracked. formu_index = 23
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 3, neg_prefix = 1 is new and tracked. formu_index = 24
+In add_formula(): Not(AP(3)), formu_index = 22, sat_time_hint = 1, neg_prefix = 1
+In search_track_formula(): formula AP(3) with sat_time_hint = 1, neg_prefix = 0 is new and tracked. formu_index = 25
+In add_formula(): AP(3), formu_index = 25, sat_time_hint = 1, neg_prefix = 0
+In AP_to_neces_MIP_GaussLin(): posi_eigen_num = 1
+In add_formula(): Not(AP(3)), formu_index = 23, sat_time_hint = 2, neg_prefix = 1
+In search_track_formula(): formula AP(3) with sat_time_hint = 2, neg_prefix = 0 is new and tracked. formu_index = 26
+In add_formula(): AP(3), formu_index = 26, sat_time_hint = 2, neg_prefix = 0
+In AP_to_neces_MIP_GaussLin(): posi_eigen_num = 2
+In add_formula(): Not(AP(3)), formu_index = 24, sat_time_hint = 3, neg_prefix = 1
+In search_track_formula(): formula AP(3) with sat_time_hint = 3, neg_prefix = 0 is new and tracked. formu_index = 27
+In add_formula(): AP(3), formu_index = 27, sat_time_hint = 3, neg_prefix = 0
+In AP_to_neces_MIP_GaussLin(): posi_eigen_num = 3
+In enforce_formula(): type = hard
+In add_formula(): And(AP(4,0),Not(And(AP(1,0),AP(2,0)))) given by user with sat_time_hint = -1
+In search_track_formula(): formula And(AP(4,0),Not(And(AP(1,0),AP(2,0)))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula AP(4,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 2
+In search_track_formula(): formula Not(And(AP(1,0),AP(2,0))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 3
+In add_formula(): AP(4,0), formu_index = 2, sat_time_hint = -1, neg_prefix = 0
+In add_formula(): Not(And(AP(1,0),AP(2,0))), formu_index = 3, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula And(AP(1,0),AP(2,0)) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 4
+In add_formula(): And(AP(1,0),AP(2,0)), formu_index = 4, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula AP(1,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 5
+In search_track_formula(): formula AP(2,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 6
+In add_formula(): AP(1,0), formu_index = 5, sat_time_hint = -1, neg_prefix = 1
+In add_formula(): AP(2,0), formu_index = 6, sat_time_hint = -1, neg_prefix = 1
+In add_and(), sub_index(1) = 5
+In add_and(), sub_index(2) = 6
+In add_and(), sub_index(1) = 2
+In add_and(), sub_index(2) = 3
+In add_and(), sub_num = 2, formu_index = 1
+In enforce_formula(): type = hard
+In add_formula(): Not(Or(Not(Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3))),Or(Not(AP(4,0)),Global(Not(AP(5)),1,3)))) given by user with sat_time_hint = -1
+In search_track_formula(): formula Not(Or(Not(Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3))),Or(Not(AP(4,0)),Global(Not(AP(5)),1,3)))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula Or(Not(Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3))),Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 2
+In add_formula(): Or(Not(Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3))),Or(Not(AP(4,0)),Global(Not(AP(5)),1,3))), formu_index = 2, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula Not(Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3))) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 3
+In search_track_formula(): formula Or(Not(AP(4,0)),Global(Not(AP(5)),1,3)) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 4
+In add_formula(): Not(Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3))), formu_index = 3, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 5
+In add_formula(): Or(Not(And(AP(1,0),AP(2,0))),Eventual(Not(AP(3)),1,3)), formu_index = 5, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula Not(And(AP(1,0),AP(2,0))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 6
+In search_track_formula(): formula Eventual(Not(AP(3)),1,3) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 7
+In add_formula(): Not(And(AP(1,0),AP(2,0))), formu_index = 6, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula And(AP(1,0),AP(2,0)) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 8
+In add_formula(): And(AP(1,0),AP(2,0)), formu_index = 8, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula AP(1,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 9
+In search_track_formula(): formula AP(2,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 10
+In add_formula(): AP(1,0), formu_index = 9, sat_time_hint = -1, neg_prefix = 1
+In add_formula(): AP(2,0), formu_index = 10, sat_time_hint = -1, neg_prefix = 1
+In add_and(), sub_index(1) = 9
+In add_and(), sub_index(2) = 10
+In add_formula(): Eventual(Not(AP(3)),1,3), formu_index = 7, sat_time_hint = -1, neg_prefix = 0
+In add_eventual(), sat_time_hint = -1, neg_prefix = 0, t_start = 1, t_end = 3
+In search_track_formula(): formula Or(Not(AP(3))) with sat_time_hint = 1  2  3, neg_prefix = 0 is new and tracked. formu_index = 11
+In add_formula(): Or(Not(AP(3))), formu_index = 11, sat_time_hint = 1  2  3, neg_prefix = 0
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 1, neg_prefix = 0 is new and tracked. formu_index = 12
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 2, neg_prefix = 0 is new and tracked. formu_index = 13
+In search_track_formula(): formula Not(AP(3)) with sat_time_hint = 3, neg_prefix = 0 is new and tracked. formu_index = 14
+In add_formula(): Not(AP(3)), formu_index = 12, sat_time_hint = 1, neg_prefix = 0
+In search_track_formula(): formula AP(3) with sat_time_hint = 1, neg_prefix = 1 is new and tracked. formu_index = 15
+In add_formula(): AP(3), formu_index = 15, sat_time_hint = 1, neg_prefix = 1
+In AP_to_neces_MIP_GaussLin(): posi_eigen_num = 1
+In add_formula(): Not(AP(3)), formu_index = 13, sat_time_hint = 2, neg_prefix = 0
+In search_track_formula(): formula AP(3) with sat_time_hint = 2, neg_prefix = 1 is new and tracked. formu_index = 16
+In add_formula(): AP(3), formu_index = 16, sat_time_hint = 2, neg_prefix = 1
+In AP_to_neces_MIP_GaussLin(): posi_eigen_num = 2
+In add_formula(): Not(AP(3)), formu_index = 14, sat_time_hint = 3, neg_prefix = 0
+In search_track_formula(): formula AP(3) with sat_time_hint = 3, neg_prefix = 1 is new and tracked. formu_index = 17
+In add_formula(): AP(3), formu_index = 17, sat_time_hint = 3, neg_prefix = 1
+In AP_to_neces_MIP_GaussLin(): posi_eigen_num = 3
+In add_formula(): Or(Not(AP(4,0)),Global(Not(AP(5)),1,3)), formu_index = 4, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula Not(AP(4,0)) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 18
+In search_track_formula(): formula Global(Not(AP(5)),1,3) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 19
+In add_formula(): Not(AP(4,0)), formu_index = 18, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula AP(4,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 20
+In add_formula(): AP(4,0), formu_index = 20, sat_time_hint = -1, neg_prefix = 0
+In add_formula(): Global(Not(AP(5)),1,3), formu_index = 19, sat_time_hint = -1, neg_prefix = 1
+In add_always(), sat_time_hint = -1, neg_prefix = 1, t_start = 1, t_end = 3
+In search_track_formula(): formula And(Not(AP(5))) with sat_time_hint = 1  2  3, neg_prefix = 1 is new and tracked. formu_index = 21
+In add_formula(): And(Not(AP(5))), formu_index = 21, sat_time_hint = 1  2  3, neg_prefix = 1
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 1, neg_prefix = 1 is new and tracked. formu_index = 22
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 2, neg_prefix = 1 is new and tracked. formu_index = 23
+In search_track_formula(): formula Not(AP(5)) with sat_time_hint = 3, neg_prefix = 1 is new and tracked. formu_index = 24
+In add_formula(): Not(AP(5)), formu_index = 22, sat_time_hint = 1, neg_prefix = 1
+In search_track_formula(): formula AP(5) with sat_time_hint = 1, neg_prefix = 0 is new and tracked. formu_index = 25
+In add_formula(): AP(5), formu_index = 25, sat_time_hint = 1, neg_prefix = 0
+In AP_to_neces_MIP_GaussLin(): posi_eigen_num = 1
+In add_formula(): Not(AP(5)), formu_index = 23, sat_time_hint = 2, neg_prefix = 1
+In search_track_formula(): formula AP(5) with sat_time_hint = 2, neg_prefix = 0 is new and tracked. formu_index = 26
+In add_formula(): AP(5), formu_index = 26, sat_time_hint = 2, neg_prefix = 0
+In AP_to_neces_MIP_GaussLin(): posi_eigen_num = 2
+In add_formula(): Not(AP(5)), formu_index = 24, sat_time_hint = 3, neg_prefix = 1
+In search_track_formula(): formula AP(5) with sat_time_hint = 3, neg_prefix = 0 is new and tracked. formu_index = 27
+In add_formula(): AP(5), formu_index = 27, sat_time_hint = 3, neg_prefix = 0
+In AP_to_neces_MIP_GaussLin(): posi_eigen_num = 3
+In add_and(), sub_index(1) = 22
+In add_and(), sub_index(2) = 23
+In add_and(), sub_index(3) = 24
+In enforce_formula(): type = hard
+In add_formula(): And(AP(4,0),Not(And(AP(1,0),AP(2,0)))) given by user with sat_time_hint = -1
+In search_track_formula(): formula And(AP(4,0),Not(And(AP(1,0),AP(2,0)))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 1
+In search_track_formula(): formula AP(4,0) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 2
+In search_track_formula(): formula Not(And(AP(1,0),AP(2,0))) with sat_time_hint = -1, neg_prefix = 0 is new and tracked. formu_index = 3
+In add_formula(): AP(4,0), formu_index = 2, sat_time_hint = -1, neg_prefix = 0
+In add_formula(): Not(And(AP(1,0),AP(2,0))), formu_index = 3, sat_time_hint = -1, neg_prefix = 0
+In search_track_formula(): formula And(AP(1,0),AP(2,0)) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 4
+In add_formula(): And(AP(1,0),AP(2,0)), formu_index = 4, sat_time_hint = -1, neg_prefix = 1
+In search_track_formula(): formula AP(1,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 5
+In search_track_formula(): formula AP(2,0) with sat_time_hint = -1, neg_prefix = 1 is new and tracked. formu_index = 6
+In add_formula(): AP(1,0), formu_index = 5, sat_time_hint = -1, neg_prefix = 1
+In add_formula(): AP(2,0), formu_index = 6, sat_time_hint = -1, neg_prefix = 1
+In add_and(), sub_index(1) = 5
+In add_and(), sub_index(2) = 6
+In add_and(), sub_index(1) = 2
+In add_and(), sub_index(2) = 3
+In add_and(), sub_num = 2, formu_index = 1
+In enforce_formula(): type = hard
